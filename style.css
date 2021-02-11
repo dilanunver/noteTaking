@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Spartan', sans-serif;
+  background-color: #ffffff;
+  text-transform: capitalize;
+  line-height: 1.5rem;
+}
+#container .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
+h3.name {
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+  font-weight: lighter;
+}
+h4.subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  color: green;
+  padding: 1.5rem 0 0.3rem 0;
+  font-weight: bolder;
+}
+.middle {
+  width: 70vw;
+}
+.note {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem 5rem;
+}
+.note .title{
+  font-family: 'Spartan', sans-serif;
+} 
+
+.note .text {
+  width: 100%;
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  margin-left: 0.3rem;
+  word-break: break-all;
+  border-radius: 5px;
+  border: 1px solid forestgreen;
+}
+
+.text::placeholder {
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.1rem;
+}
+.text:focus {
+  outline: none;
+}
