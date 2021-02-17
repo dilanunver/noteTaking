@@ -8,7 +8,6 @@
 body {
   font-family: 'Spartan', sans-serif;
   background-color: #ffffff;
-  text-transform: capitalize;
   line-height: 1.5rem;
 }
 #container .container {
@@ -125,7 +124,7 @@ button.detail:hover{
   color: cornflowerblue;
   background-color: #ffffff;
 }
-button.detail:focus, button.submit:focus{
+button.detail:focus, button.submit:focus, button.delete:focus, button.edit:focus{
   outline: none;
 }
 
@@ -166,4 +165,34 @@ button.detail:focus, button.submit:focus{
   left: 5px;
   font-weight: bolder;
   cursor: pointer;
+}
+button.delete {
+  color: #ffffff;
+  background-color: red;
+  width: 30px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid red;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.delete:hover{
+  color: red;
+  background-color: #ffffff;
+  transition: all 0.3s linear;
+}
+button.edit {
+  color: #ffffff;
+  background-color: forestgreen;
+  width: 30px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid forestgreen;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.edit:hover {
+  color: forestgreen;
+  background-color: #ffffff;
+  transition: all 0.3s linear;
 }
